@@ -7,7 +7,7 @@ remainder = a % b
 # 소수 부분 21자리 만들기
 decimal_part = ""
 
-for _ in range(21):
+for _ in range(20):
     remainder *= 10
     digit = remainder // b
     decimal_part += str(digit)
