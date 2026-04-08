@@ -13,7 +13,7 @@ def calcul(a,o,c):
     elif o == '*':
         return a * c
     else:
-        False
+        return False
 
 print(a, o, c, '=', calcul(a,o,c))
     
