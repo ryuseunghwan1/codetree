@@ -3,18 +3,7 @@ pattern = input()
 
 # Please write your code here.
 def instring():
-    sh = []
-    cnt = 0
-
-    for i in text:
+    cnt = text.find(pattern)
+    return cnt
     
-        sh.append(i)
-
-        if pattern not in sh:
-            cnt += 1
-        else:
-            break
-
-    return cnt - len(pattern)
-
 print(instring())
