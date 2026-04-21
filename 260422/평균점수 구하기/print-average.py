@@ -1,3 +1,3 @@
 N = list(map(float, input().split()))
 
-print(sum(N)/len(N))
+print(round(sum(N)/len(N),1))
