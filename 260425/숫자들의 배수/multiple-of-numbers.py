@@ -1,14 +1,14 @@
 N = int(input())
-cnt = N
+cnt = 0
 cnt_1 = 0
 while True:
-    print(cnt, end=' ')
-    cnt += N
 
+    cnt += N
+    print(cnt, end=' ')
+    
     if cnt % 5 ==0:
         cnt_1 += 1
 
     if cnt_1 == 2:
-        print(cnt)
         break
         
