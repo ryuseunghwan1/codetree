@@ -6,9 +6,8 @@ while a > 1:
     cnt = a % b
     arr[cnt] += 1
     a = a // b
-    print(cnt)
     
 for i in arr:
     total += i ** 2
-    
+
 print(total)
