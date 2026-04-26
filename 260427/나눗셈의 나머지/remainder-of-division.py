@@ -3,11 +3,10 @@ arr = [0]* 10
 total = 0
 
 while a > 0:
-    cnt = a % 4
+    cnt = a % b
     arr[cnt] += 1
-    a = a // 4
+    a = a // b
     
 for i in arr:
     total += i ** 2
     
-print(total)
