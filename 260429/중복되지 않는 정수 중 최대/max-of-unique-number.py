@@ -2,9 +2,13 @@ n = int(input())
 nums = list(map(int, input().split()))
 
 # Please write your code here.
-b = set(nums)
+b = []
 
-if len(nums) % len(b) != 0:
+for i in nums:
+    if nums.count(i) == 1:
+        b.append(i)
+
+if len(b) >0:
     print(max(b))
 else:
     print(-1)
