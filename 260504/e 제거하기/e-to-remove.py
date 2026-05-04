@@ -1,0 +1,5 @@
+a = input()
+b = a.find('e')
+c = list(a)
+c.pop(b)
+print(('').join(c))
