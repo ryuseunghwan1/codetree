@@ -10,6 +10,7 @@ for i in arr:
     cnt += 1
     arr_1.append(i)
     if cnt % 2 != 0:
+        arr_1.sort()
         print(arr_1[cnt_1], end=' ')
         cnt_1 += 1
     
