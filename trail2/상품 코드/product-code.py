@@ -8,7 +8,7 @@ class product:
         self.product_code = product_code
 
 product1 = product()
-product2 = product('leebros', 88)
+product2 = product(product_name, product_code)
 
 print('product', product1.product_code, 'is', product1.product_name)
 print('product', product2.product_code, 'is', product2.product_name)
