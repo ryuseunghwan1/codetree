@@ -10,3 +10,9 @@ for _ in range(n):
     region.append(r_i)
 
 # Please write your code here.
+a = list(zip(name,  street_address, region))
+a.sort()
+
+print('name', a[-1][0])
+print('addr', a[-1][1])
+print('city', a[-1][2])
