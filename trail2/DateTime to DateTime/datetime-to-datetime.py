@@ -9,5 +9,7 @@ total_2 = d + e + f
 
 if total_1 > total_2:
     print(total_1 - total_2)
+elif total_1 == total_2:
+    print(0)
 else:
     print(-1)
