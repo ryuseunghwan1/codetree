@@ -14,7 +14,7 @@ if B == 4:
         N //= 4
 else:
     while True:
-        if N < 4:
+        if N < 8:
             digits.append(N % 8)
             break
 
