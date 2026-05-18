@@ -10,3 +10,5 @@ for i in student:
 for j in num:
     if j >= K:
         print(num.index(j))
+    else:
+        print(-1)
