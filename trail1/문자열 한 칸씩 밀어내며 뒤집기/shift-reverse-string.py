@@ -11,5 +11,6 @@ for i in queries:
         input_str = input_str[-1] + input_str[:-1]
         print(input_str)
     else:
-        print(input_str[::-1])
+        input_str = input_str[::-1]
+        print(input_str)
         
