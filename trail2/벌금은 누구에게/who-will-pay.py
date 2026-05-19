@@ -12,6 +12,8 @@ for j in num:
     if j >= K:
         print(num.index(j))
         cnt += 1
+        break
+        
 
 if cnt == 0:
     print(-1)
