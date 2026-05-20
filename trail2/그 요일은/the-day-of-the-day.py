@@ -1,7 +1,5 @@
 m1, d1, m2, d2 = map(int, input().split())
-A = input()
-
-# Please write your code here.
+target_day = input()
 
 # 1. 2024년 각 달의 마지막 날짜 (윤년이므로 2월은 29일)
 num_of_days = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
