@@ -13,3 +13,4 @@ width = max_x - min_x
 height = max_y - min_y
 
 # 최소 넓이 출력
+print(width * height)
