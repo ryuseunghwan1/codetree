@@ -1,0 +1,15 @@
+x1, y1, x2, y2 = map(int, input().split())
+a1, b1, a2, b2 = map(int, input().split())
+
+# Please write your code here.
+# 두 직사각형을 모두 포함하는 최소/최대 좌표 구하기
+min_x = min(x1, a1)
+max_x = max(x2, a2)
+min_y = min(y1, b1)
+max_y = max(y2, b2)
+
+# 새로운 직사각형의 가로, 세로 길이 계산
+width = max_x - min_x
+height = max_y - min_y
+
+# 최소 넓이 출력
