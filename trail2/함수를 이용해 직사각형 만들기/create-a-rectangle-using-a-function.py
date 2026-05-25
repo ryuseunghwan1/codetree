@@ -5,7 +5,7 @@ n, m = map(int, input().split())
 def string():
     for i in range(n):
         for j in range(m):
-            print(j, end='')
+            print(1, end='')
         print()
 
 print(string())
