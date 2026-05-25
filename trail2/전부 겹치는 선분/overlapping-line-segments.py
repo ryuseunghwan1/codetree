@@ -5,7 +5,7 @@ x1, x2 = list(x1), list(x2)
 
 # Please write your code here.
 
-def line(*x1, *x2):
+def line(*args, *args):
     if x2 in x1:
         return 'Yes'
     else:
