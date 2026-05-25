@@ -7,3 +7,5 @@ def string():
         for j in range(m):
             print(j, end='')
         print()
+
+print(string())
