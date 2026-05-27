@@ -15,29 +15,29 @@ grid = [ [0] * 205 for  _ in range(205)   ]
 
 for i in range(n):
     if i % 2 == 0:
-        start_x1 = x1[i] + OFFSET
-        start_y1 = y1[i] + OFFSET
-        start_x2 = x2[i] + OFFSET
-        start_y2 = y2[i] + OFFSET
+        start_x = x1[i] + OFFSET
+        start_y = y1[i] + OFFSET
+        end_x = x2[i] + OFFSET
+        end_y = y2[i] + OFFSET
 
-        for curr_x in range(start_x2, start_x1):
-            for curr_y in range(start_y2, start_y1):
-                grid[curr_x][curr_y] = 0
-
-    else:
-        start_x1 = x1[i] + OFFSET
-        start_y1 = y1[i] + OFFSET
-        start_x2 = x2[i] + OFFSET
-        start_y2 = y2[i] + OFFSET
-
-        for curr_x in range(start_x2, start_x1):
-            for curr_y in range(start_y2, start_y1):
+        for curr_x in range(end_x, start_x, -1):
+            for curr_y in range(end_y, start_y, -1):
                 grid[curr_x][curr_y] = 1
 
+    else:
+        start_x = x1[i] + OFFSET
+        start_y = y1[i] + OFFSET
+        end_x = x2[i] + OFFSET
+        end_y = y2[i] + OFFSET
+
+        for curr_x in range(end_x, start_x, -1):
+            for curr_y in range(end_y, start_y, -1):
+                grid[curr_x][curr_y] = 2
+                
 total_area = 0
 for r in range(205):
     for c in range(205):
-        if grid[r][c] == 1:
+        if grid[r][c] == 2:
             total_area += 1
 
 print(total_area)
