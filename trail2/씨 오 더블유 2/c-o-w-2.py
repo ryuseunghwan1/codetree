@@ -1,7 +1,7 @@
+# 문자열의 길이 N 입력 받기
 n = int(input())
-S = input()
-
-# Please write your code here.
+# 문자열 입력 받기
+s = input()
 
 ans = 0
 
