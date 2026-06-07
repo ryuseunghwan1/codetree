@@ -15,3 +15,4 @@ for i in range(n):
                 ans += 1
 
 # 가능한 총 가짓수 출력
+print(ans)
