@@ -22,3 +22,5 @@ for k in range(n + m - 1):
             count += 1
 
 # 결과 출력하기
+for row in range(n):
+    print(*(answer[row]))
