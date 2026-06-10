@@ -1,8 +1,7 @@
 n, m = map(int, input().split())
 
 # Please write your code here.
-# N과 M 입력 받기
-n, m = map(int, input().split())
+
 
 # N x M 크기의 2차원 배열을 0으로 초기화
 answer = [[0] * m for _ in range(n)]
