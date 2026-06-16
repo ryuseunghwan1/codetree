@@ -18,3 +18,4 @@ for i in range(a, b+1):
     if is_prime(i):
         sum_val += i
 
+print(sum_val)
