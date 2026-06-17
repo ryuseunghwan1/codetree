@@ -7,4 +7,4 @@ def f(N):
 
     return f(N // 10) + (N % 10) ** 2
 
-print(f)
+print(f(N))
