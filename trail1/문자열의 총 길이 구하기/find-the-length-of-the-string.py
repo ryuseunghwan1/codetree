@@ -3,4 +3,4 @@ arr = 0
 for i in string:
     arr += len(i)
 
-print(arr))
+print(arr)
