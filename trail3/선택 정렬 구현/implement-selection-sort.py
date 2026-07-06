@@ -3,4 +3,5 @@ arr = list(map(int, input().split()))
 
 # Please write your code here.
 arr.sort()
-print(arr)
+for i in arr:
+    print(i, end=' ')
