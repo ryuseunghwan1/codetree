@@ -1,4 +1,1 @@
-print('''Total days in Year
-365
-Circumference rate
-''')
+print("Total days in Year\n365\nCircumference rate\n3.1415926535")
