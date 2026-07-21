@@ -3,7 +3,6 @@ A = list(map(int, input().split()))
 B = list(map(int, input().split()))
 
 # Please write your code here.
-
 A.sort()
 B.sort()
 
