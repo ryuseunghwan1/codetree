@@ -1,19 +1,22 @@
-n = int(input())
-
-students = []
-
+# 클래스 선언
 class Student:
-    def __init__(self, name, kor, eng, math):
+    def __init__(self, name, korean, english, math):
         self.name = name
-        self.kor = kor
-        self.eng = eng
+        self.korean = korean
+        self.english = english
         self.math = math
 
+
+# 변수 선언 및 입력
+n = int(input())
+students = []
 for _ in range(n):
-    name, kor, eng, math = tuple(input().split())
-    students.append(Student(name, int(kor), int(eng), int(math)))
+    name, korean, english, math = tuple(input().split())
+    students.append(Student(name, int(korean), int(english), int(math)))
 
-students.sort(key= lambda x : (-x.kor, -x.eng, -x.math))
+# Custom Comparator를 활용한 정렬
+students.sort(key = lambda x: (-x.korean, -x.english, -x.math))
 
-for i in students:
-    print(i.name, i.kor, i.eng, i.math)
+# 출력
+for student in students:
+    print(student.name, student.korean, student.english, student.math)
