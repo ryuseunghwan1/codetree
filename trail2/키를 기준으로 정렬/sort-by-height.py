@@ -1,17 +1,20 @@
+# 클래스 선언
+class Student:
+    def __init__(self, name, height, weight):
+        self.name, self.height, self.weight = name, height, weight
+
+
+# 변수 선언 및 입력
 n = int(input())
-name = []
-height = []
-weight = []
-
+students = []
 for _ in range(n):
-    n_i, h_i, w_i = input().split()
-    name.append(n_i)
-    height.append(int(h_i))
-    weight.append(int(w_i))
+    name, height, weight = tuple(input().split())
+    students.append(Student(name, int(height), int(weight)))
 
-# Please write your code here.
-a= list(zip(name, height, weight))
-a.sort(key = lambda x: x[1])
+# Custom Comparator를 활용한 정렬
+students.sort(key = lambda x: x.height)
 
-for one, two, three in a:
-    print(one, two, three)
+# 출력
+for student in students:
+    print(student.name, student.height, student.weight)
+
