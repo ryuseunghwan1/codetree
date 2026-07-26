@@ -1,17 +1,15 @@
 a, b = map(int, input().split())
-arr = map(int, input().split())
+arr_1 = list(map(int, input().split()))
 
-arr_1 = list(arr)
+total_sum = sum(arr_1)
+min_diff = float('inf')
 
-s = 10000
-
-def sum_diff(i, j):
-    sum1 = arr_1[i] + arr_1[j]
-    sum2 = sum(arr_1)
-    return sum2 - sum1
-    
 for i in range(a):
-    for j in range(i+1, a):
-        s = min(s, sum_diff(i, j))    
+    for j in range(i + 1, a):
+        remaining_sum = total_sum - (arr_1[i] + arr_1[j])
 
-print(abs(s-b))
+        diff = abs(remaining_sum - b)
+
+        min_diff = min(min_diff, diff)
+
+print(min_diff)
