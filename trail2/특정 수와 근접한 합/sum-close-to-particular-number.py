@@ -14,4 +14,4 @@ for i in range(a):
     for j in range(i+1, a):
         s = min(s, sum_diff(i, j))    
 
-print(s-b)
+print(abs(s-b))
