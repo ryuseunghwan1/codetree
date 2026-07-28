@@ -4,7 +4,7 @@ x = [p[0] for p in points]
 y = [p[1] for p in points]
 
 # Please write your code here.
-cnt = 10000
+cnt = float('inf')
 for i in range(n):
     temp_x = []
     temp_y = []
