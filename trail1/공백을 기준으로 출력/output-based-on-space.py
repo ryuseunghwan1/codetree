@@ -5,4 +5,4 @@ n_t = n.replace(' ','')
 b_t = b.replace(' ','')
 
 
-print(n_t, b_t, end='', sep=' ')
+print(n_t, b_t, end='', sep='')
