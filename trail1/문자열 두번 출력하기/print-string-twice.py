@@ -1,3 +1,3 @@
 string = input()
 print(string)
-print(string_))
+print(string)
