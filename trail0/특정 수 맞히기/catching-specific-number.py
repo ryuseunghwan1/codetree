@@ -6,5 +6,5 @@ while True:
     elif num > 25:
         print("Lower")
     else:
-        print("Good"
+        print("Good")
         break
