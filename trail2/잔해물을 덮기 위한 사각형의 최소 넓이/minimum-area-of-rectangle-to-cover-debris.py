@@ -45,4 +45,4 @@ else:
     # (예: 인덱스 2번부터 5번까지 채워져 있다면 길이는 5 - 2 + 1 = 4칸)
     width = max_x - min_x + 1
     height = max_y - min_y + 1
-    print(width * height)
+    print(width * height
