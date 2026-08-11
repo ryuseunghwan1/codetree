@@ -9,4 +9,4 @@ for i in N:
         cnt += i
         cnt_1 += 1
 
-print(cnt, round(cnt/cnt_1,1)
+print(cnt, round(cnt/cnt_1,1))
