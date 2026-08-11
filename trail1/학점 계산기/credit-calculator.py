@@ -15,4 +15,4 @@ elif cnt/cnt_1 >= 3.0:
     print('Good')
 else:
     print(round(cnt/cnt_1,1))
-    print('Poor'
+    print('Poor')
