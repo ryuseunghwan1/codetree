@@ -1,2 +1,7 @@
+# 변수 선언, 입력
 a = int(input())
-print("t") if a==1 else print()
+
+ans = 't' if a == 1 else 'f'
+
+# 출력
+print(ans)
