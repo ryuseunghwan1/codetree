@@ -6,4 +6,4 @@ if bmi >= 25:
     print(bmi)
     print("Obesity")
 else:
-    print(bmi
+    print(bmi)
