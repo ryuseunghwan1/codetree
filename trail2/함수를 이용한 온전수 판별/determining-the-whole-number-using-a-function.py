@@ -10,4 +10,4 @@ def onfunc(a, b):
     
     return cnt
 
-print(onfunc(a, b)
+print(onfunc(a, b))
