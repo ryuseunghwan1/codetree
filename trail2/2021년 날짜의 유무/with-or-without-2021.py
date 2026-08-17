@@ -22,5 +22,5 @@ def calender(a,b):
 if calender(M,D) == True:
     print('Yes')
 else:
-    print('No'
+    print('No')
 
