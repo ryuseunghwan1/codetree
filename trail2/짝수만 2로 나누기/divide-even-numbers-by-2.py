@@ -11,4 +11,4 @@ def even(arr):
 even(arr)
 
 for i in arr:
-    print(i, end=' '
+    print(i, end=' ')
