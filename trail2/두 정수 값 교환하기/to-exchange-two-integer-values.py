@@ -7,4 +7,4 @@ def swap(a, b):
     return a, b
 
 n, m = swap(n,m)
-print(n, m)
+print(n, m
