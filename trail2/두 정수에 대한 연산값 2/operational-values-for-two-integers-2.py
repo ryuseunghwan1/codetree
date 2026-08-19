@@ -13,4 +13,4 @@ def compare(a, b):
     return a, b
 
 for i in compare(a,b):
-    print(i, end=' '
+    print(i, end=' ')
