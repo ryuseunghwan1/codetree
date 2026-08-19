@@ -15,4 +15,4 @@ def string(A):
     else:
         return 'Yes'
         
-print(string(A)
+print(string(A))
