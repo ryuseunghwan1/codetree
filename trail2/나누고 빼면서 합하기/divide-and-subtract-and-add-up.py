@@ -21,5 +21,5 @@ total = 0
 for i in sh(n, m):
     total += A[i-1]
 
-print(total
+print(total)
         
