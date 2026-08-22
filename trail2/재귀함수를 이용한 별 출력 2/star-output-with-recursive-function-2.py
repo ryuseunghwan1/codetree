@@ -15,4 +15,4 @@ def star(n):
         print('*', end=' ')
     print()
 
-star(n
+star(n)
