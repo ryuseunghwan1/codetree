@@ -10,4 +10,4 @@ def star(n):
 
     print('*' * n)
 
-star(n
+star(n)
