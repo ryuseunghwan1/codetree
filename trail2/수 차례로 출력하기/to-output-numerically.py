@@ -20,4 +20,4 @@ def temp_1(n):
 
 temp(n)
 print()
-temp_1(n
+temp_1(n)
