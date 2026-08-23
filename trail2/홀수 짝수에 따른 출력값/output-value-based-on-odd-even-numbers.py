@@ -11,4 +11,4 @@ def f(n):
     
     return f(n-2) + n
 
-print(f(n)
+print(f(n))
