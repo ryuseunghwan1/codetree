@@ -10,4 +10,4 @@ def f(N):
 
     return f(N // 3) + f(N - 1)
 
-print(f(N)
+print(f(N))
