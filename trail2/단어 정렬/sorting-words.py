@@ -5,4 +5,4 @@ word = [input() for _ in range(n)]
 
 word.sort()
 for i in word:
-    print(i
+    print(i)
