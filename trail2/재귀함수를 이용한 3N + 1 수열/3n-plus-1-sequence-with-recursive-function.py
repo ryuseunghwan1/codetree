@@ -10,4 +10,4 @@ def f(n):
     else:
         return f(n*3 + 1) + 1
 
-print(f(n)
+print(f(n))
