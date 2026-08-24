@@ -9,4 +9,4 @@ def f(cnt):
     
     return f(cnt//10) + f(cnt%10)
 
-print(f(cnt)
+print(f(cnt))
