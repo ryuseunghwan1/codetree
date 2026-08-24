@@ -9,4 +9,4 @@ def f(N):
 
     return (f(N - 2) * f(N -1)) % 100
 
-print(f(N)
+print(f(N))
