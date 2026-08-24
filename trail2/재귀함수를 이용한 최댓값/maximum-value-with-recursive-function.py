@@ -12,4 +12,4 @@ def get_max(index):
     return max(arr[index], get_max(index + 1))
 
 # 0번째 인덱스부터 탐색 시작
-print(get_max(0)
+print(get_max(0))
