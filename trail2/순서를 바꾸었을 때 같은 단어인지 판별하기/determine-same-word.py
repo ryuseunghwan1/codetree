@@ -11,4 +11,4 @@ word2_sort = ''.join(word2_sort)
 if word1_sort == word2_sort:
     print('Yes')
 else:
-    print('No'
+    print('No')
