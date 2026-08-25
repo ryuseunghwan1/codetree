@@ -3,4 +3,4 @@ nums = list(map(int, input().split()))
 
 # Please write your code here.
 nums.sort()
-print(nums[k-1]
+print(nums[k-1])
