@@ -9,4 +9,4 @@ B.sort()
 if A == B:
     print('Yes')
 else:
-    print('No')
+    print('No'
