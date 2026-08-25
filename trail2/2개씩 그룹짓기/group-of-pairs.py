@@ -14,5 +14,5 @@ for i in range(n):
         # 최댓값을 갱신합니다.
         group_max = group_sum
 
-print(group_max)
+print(group_max
 
