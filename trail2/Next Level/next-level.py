@@ -11,4 +11,4 @@ user1 = Users()
 user2 = Users(user2_id, user2_level)
 
 print('user', user1.id, 'lv', user1.level)
-print('user', user2.id, 'lv', user2.level
+print('user', user2.id, 'lv', user2.level)
