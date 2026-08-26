@@ -21,4 +21,4 @@ a = tuple(zip(codenames, scores))
 
 sorted_a = sorted(a, key=lambda x: x[1])
 min_tuple = sorted_a[0]
-print(f"{min_tuple[0]} {min_tuple[1]}"
+print(f"{min_tuple[0]} {min_tuple[1]}")
