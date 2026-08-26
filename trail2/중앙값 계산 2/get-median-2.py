@@ -12,6 +12,6 @@ for i in arr:
     if cnt % 2 != 0:
         arr_1.sort()
         print(arr_1[cnt_1], end=' ')
-        cnt_1 += 
+        cnt_1 += 1
     
     
