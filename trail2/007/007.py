@@ -13,4 +13,4 @@ my_secret = secret(secret_code, meeting_point, time)
 
 print('secret code :', my_secret.secret_code)
 print('meeting point :', my_secret.meeting_point)
-print('time :', my_secret.time
+print('time :', my_secret.time)
