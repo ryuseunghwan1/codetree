@@ -20,5 +20,5 @@ students.sort(key= lambda x : -x.height)
 print()
 print('height')
 for j in students:
-    print(j.name, j.height, j.weight
+    print(j.name, j.height, j.weight)
     
