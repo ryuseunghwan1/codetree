@@ -15,4 +15,4 @@ a.sort()
 
 print('name', a[-1][0])
 print('addr', a[-1][1])
-print('city', a[-1][2]
+print('city', a[-1][2])
