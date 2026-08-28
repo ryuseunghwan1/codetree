@@ -19,4 +19,4 @@ for i in range(n):
 rain_index.sort(key = lambda idx: date[idx])
 target = rain_index[0]
 
-print(date[target], day[target], weather[target])
+print(date[target], day[target], weather[target]
