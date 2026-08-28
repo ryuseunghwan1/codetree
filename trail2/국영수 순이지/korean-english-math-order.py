@@ -19,4 +19,4 @@ students.sort(key = lambda x: (-x.korean, -x.english, -x.math))
 
 # 출력
 for student in students:
-    print(student.name, student.korean, student.english, student.math
+    print(student.name, student.korean, student.english, student.math)
