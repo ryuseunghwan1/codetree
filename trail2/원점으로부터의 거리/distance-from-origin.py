@@ -16,4 +16,4 @@ distances.sort(key=lambda x: (x[1], x[0]))
 
 # 정렬된 순서대로 점의 번호만 출력합니다.
 for num, dist in distances:
-    print(num
+    print(num)
