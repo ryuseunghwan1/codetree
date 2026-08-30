@@ -12,4 +12,4 @@ if total_1 > total_2:
 elif total_1 == total_2:
     print(0)
 else:
-    print(-1)
+    print(-1
