@@ -20,4 +20,4 @@ diff = total_2 - total_1
 
 # 파이썬의 % 연산자는 음수도 요일 리스트 범위 안으로 잘 순환시켜줍니다.
 # 예를 들어 diff가 -1이면 (일요일 방향), wkd[-1 % 7] -> wkd[6] (Sun)이 됩니다.
-print(wkd[diff % 7]
+print(wkd[diff % 7])
