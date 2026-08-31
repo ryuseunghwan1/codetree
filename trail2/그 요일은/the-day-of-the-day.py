@@ -38,4 +38,4 @@ for i in range(elapsed_days + 1):
     if current_day_num == target_num:
         ans += 1
 
-print(ans)
+print(ans
