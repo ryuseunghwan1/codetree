@@ -13,4 +13,4 @@ while True:
     n //= 2
 
 for i in digits[::-1]:
-    print(i, end='')
+    print(i, end=''
