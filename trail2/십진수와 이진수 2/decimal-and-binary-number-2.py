@@ -20,4 +20,4 @@ while True:
     num //= 2
 
 for j in digits[::-1]:
-    print(j, end='')
+    print(j, end=''
