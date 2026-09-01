@@ -22,5 +22,5 @@ else:
         N //= 8
 
 for i in digits[::-1]:
-    print(i, end='')
+    print(i, end=''
             
