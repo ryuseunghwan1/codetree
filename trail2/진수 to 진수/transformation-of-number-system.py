@@ -16,4 +16,4 @@ while True:
     num //= b
 
 for j in digits[::-1]:
-    print(j, end=''
+    print(j, end='')
