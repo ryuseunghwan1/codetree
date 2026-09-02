@@ -10,4 +10,4 @@ for a, b in commands:
         cnt[i] += 1
 
 
-print(max(cnt)
+print(max(cnt))
