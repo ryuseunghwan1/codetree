@@ -14,4 +14,4 @@ print(cnt)
 
 for i in range(len(total)):
     if i % 2 == 0:
-        print(total[i]
+        print(total[i])
