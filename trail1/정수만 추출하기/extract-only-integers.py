@@ -24,5 +24,5 @@ for m in d:
 for n in e:
     g += str(n)
 
-print(int(f) + int(g))
+print(int(f) + int(g)
     
