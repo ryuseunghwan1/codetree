@@ -10,4 +10,4 @@ for j in b:
     if j <= '9' and j >= '0':
         d += j
 
-print(int(c) + int(d))      
+print(int(c) + int(d))
