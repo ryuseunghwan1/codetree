@@ -8,4 +8,4 @@ for i in d:
     if i == '1':
         cnt += 1
 
-print(cnt
+print(cnt)
