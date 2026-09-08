@@ -1,3 +1,5 @@
+
+
 a = input()
 cnt = 0
 
