@@ -14,4 +14,4 @@ for i in range(len(a)):
     cnt += 1
 
 if not found:
-    print(-1
+    print(-1)
