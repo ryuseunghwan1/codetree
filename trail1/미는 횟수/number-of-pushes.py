@@ -1,4 +1,3 @@
-
 a = input()
 b = input()
 
@@ -10,6 +9,7 @@ for i in range(len(a)):
         print(cnt)
         found = True
         break
+    
     a = a[-1] + a[:-1]
     cnt += 1
 
