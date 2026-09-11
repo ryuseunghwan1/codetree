@@ -1,6 +1,3 @@
-
-
-
 arr = list(map(int, input().split()))
 arr_tmp = []
 cnt = 0
@@ -12,7 +9,7 @@ for i in arr:
         break
 
 for j in range(3):
-    cnt += arr_tmp[::-1][i]
+    cnt += arr_tmp[::-1][j]
 
 print(cnt)
     
