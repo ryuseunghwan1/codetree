@@ -10,4 +10,4 @@ for _ in range(N):
     else:
         print('fail')
 
-print(cnt
+print(cnt)
