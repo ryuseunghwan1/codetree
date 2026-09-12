@@ -1,21 +1,15 @@
+# 배열에 주어진 수를 입력받아 저장합니다.
 arr = list(map(int, input().split()))
-arr_1 = []
+sum_val = 0
+cnt = 0
 
-for i in arr:
-    if i != 0:
-        arr_1.append(i)      
-    else:
+# 배열에 0이 있는지 확인합니다. 0이 나오지 않았을 경우 합과 개수를 구합니다.
+for elem in arr:
+    if elem == 0:
         break
+    sum_val += elem
+    cnt += 1
+    
+avg = sum_val / cnt
 
-print(sum(arr_1), round(sum(arr_1)/len(arr_1),1))
-
-arr = list(map(int, input().split()))
-arr_1 = []
-
-for i in arr:
-    if i != 0:
-        arr_1.append(i)
-    else:
-        break
-
-print(sum(arr_1), round(sum(arr_1)/len(arr_1),1))
+print(f"{sum_val} {avg:.1f}")
