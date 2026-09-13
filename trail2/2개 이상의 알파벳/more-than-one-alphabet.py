@@ -1,18 +1,11 @@
+
+
 A = input()
 
-# Please write your code here.
-
-def string(A):
-
-    cnt = A[0]
-    cnt_2 = 0
-    for i in A[:]:
-        if i != cnt:
-            cnt_2 += 1
-
-    if cnt_2 == 0:
-        return 'No'
-    else:
+def set_func(A):
+    if len(set(A)) >= 2:
         return 'Yes'
-        
-print(string(A))
+    else:
+        return 'No'
+
+print(set_func(A))
