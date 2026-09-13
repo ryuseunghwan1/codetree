@@ -1,16 +1,15 @@
+
 a, b = map(int, input().split())
 
-# Please write your code here.
-
-def compare(a, b):
-    if a == min(a,b):
-        a += 10
-        b *= 2
-    else:
+def compare(a,b):
+    if a > b:
         a *= 2
         b += 10
+    else:
+        b *= 2
+        a += 10
 
     return a, b
 
-for i in compare(a,b):
-    print(i, end=' ')
+for i in list(compare(a,b)):
+    print(i, end= ' ')
