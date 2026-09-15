@@ -12,4 +12,4 @@ def find_lcm(n, m):
     print(n * m // gcd)
    
 
-find_lcm(n, m
+find_lcm(n, m)
