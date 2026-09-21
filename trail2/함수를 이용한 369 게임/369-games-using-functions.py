@@ -18,4 +18,4 @@ def num_count(a, b):
     
     return cnt
 
-print(num_count(a, b
+print(num_count(a, b)
