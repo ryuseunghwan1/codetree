@@ -11,4 +11,4 @@ for i in range(N):
 
         if num == 10:
             num = 1
-    print(
+    print()
