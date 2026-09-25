@@ -9,4 +9,4 @@ for i in range(n):
             if A[i] <= A[j] <= A[m]:
                 cnt += 1
 
-print(cnt)
+print(cnt
