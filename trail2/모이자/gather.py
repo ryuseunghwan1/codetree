@@ -17,5 +17,4 @@ for i in range(n):
     min_dist = min(min_dist, sum_dist)
 
 # 결과를 출력합니다.
-print(min_dist)
-
+print(min_dist
