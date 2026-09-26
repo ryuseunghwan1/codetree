@@ -16,4 +16,4 @@ for i in range(len(A)):
                 cnt += 1  # 올바른 쌍을 찾았으므로 카운트 증가
 
 # 결과 출력
-print(cnt)
+print(cnt
