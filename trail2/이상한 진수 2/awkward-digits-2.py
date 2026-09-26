@@ -14,4 +14,4 @@ for i in range(len(a)):
 
     max_n = max(max_n, current_n)
 
-print(max_n
+print(max_n)
