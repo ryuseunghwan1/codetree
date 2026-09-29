@@ -29,4 +29,4 @@ for cmd in commands:
         y += dy[dir_num]
 
 # 최종 위치 출력
-print(x, y)
+print(x, y
