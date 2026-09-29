@@ -1,4 +1,4 @@
 num = int(input())
 
 for i in range(num):
-    print('LeebrosCode'
+    print('LeebrosCode')
