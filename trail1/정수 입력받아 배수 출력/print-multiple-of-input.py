@@ -1,4 +1,6 @@
+# 변수 선언, 입력
 n = int(input())
 
-for i in range(1, 6):
-    print(n*i, end)
+# 출력
+for i in range(n, 6 * n, n):
+    print(i, end=" ")
