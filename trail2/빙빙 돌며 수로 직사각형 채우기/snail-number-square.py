@@ -28,4 +28,4 @@ for i in range(2, n * m + 1):
 for i in range(n):
     for j in range(m):       # 열은 m개
         print(answer[i][j], end=' ')
-    print(
+    print()
