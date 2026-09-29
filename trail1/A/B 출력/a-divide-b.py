@@ -13,4 +13,4 @@ for _ in range(20):
     decimal_part += str(digit)
     remainder %= b
 
-print(f"{integer}.{decimal_part}"
+print(f"{integer}.{decimal_part}")
