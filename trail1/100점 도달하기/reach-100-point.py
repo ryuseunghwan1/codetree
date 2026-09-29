@@ -12,4 +12,4 @@ while num <= 100:
     else:
         print('F', end=' ')
     
-    num += 1\
+    num += 1
