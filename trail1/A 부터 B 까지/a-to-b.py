@@ -6,4 +6,4 @@ while a <= b:
         a += 3
     else:
         print(a, end=' ')
-        a *= 
+        a *= 2
