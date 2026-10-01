@@ -12,4 +12,4 @@ for elem in arr:
     
 avg = sum_val / cnt
 
-print(f"{sum_val} {avg:.1f}")
+print(f"{sum_val} {avg:.1f}"
