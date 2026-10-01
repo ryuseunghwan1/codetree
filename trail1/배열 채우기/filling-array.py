@@ -8,4 +8,4 @@ for i in arr:
         break
 
 for j in arr_1[::-1]:
-    print(j, end= ' '
+    print(j, end= ' ')
