@@ -11,5 +11,4 @@ for i in arr:
 for j in range(3):
     cnt += arr_tmp[::-1][j]
 
-print(cnt)
-    
+print(cnt
