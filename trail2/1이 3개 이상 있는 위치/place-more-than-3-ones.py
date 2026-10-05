@@ -24,4 +24,4 @@ for i in range(n):
         if cnt >= 3:
             total_ans += 1
             
-print(total_ans)
+print(total_ans
