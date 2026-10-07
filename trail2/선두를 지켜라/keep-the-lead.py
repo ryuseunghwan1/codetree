@@ -51,4 +51,4 @@ while ia < n and ib < m:
         if ib < m:
             rem_b = b_moves[ib][1]
 
-print(count)
+print(count
