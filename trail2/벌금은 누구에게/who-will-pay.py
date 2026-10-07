@@ -13,4 +13,4 @@ for i in student:
         fined_student = i
         break
 
-print(fined_student
+print(fined_student)
