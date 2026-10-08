@@ -11,5 +11,5 @@ for i in range(n-k+1):
         cnt += arr[j]
     total = max(total, cnt)
 
-print(total)
+print(total
     
