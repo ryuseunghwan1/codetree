@@ -36,4 +36,4 @@ for m in range(1, MAX_R + 1):
         
     total = max(total, cnt)
 
-print(total)
+print(total
