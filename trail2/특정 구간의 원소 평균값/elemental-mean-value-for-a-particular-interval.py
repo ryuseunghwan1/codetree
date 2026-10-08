@@ -15,4 +15,4 @@ for i in range(n):
         if avg in nums[i:j+1]:
             count += 1
 
-print(count
+print(count)
