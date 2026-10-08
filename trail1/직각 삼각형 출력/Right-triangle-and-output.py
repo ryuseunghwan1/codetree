@@ -1,4 +1,4 @@
-N = int(input())
+n = int(input())
 
 for i in range(n):
     for _ in range(2 * i + 1):
