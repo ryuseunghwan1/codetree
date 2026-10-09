@@ -10,4 +10,4 @@ for i in range(N):
         print('*', end=' ')
 
     print()
-    cnt_2 -= 
+    cnt_2 -= 2
