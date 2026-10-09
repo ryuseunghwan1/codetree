@@ -18,5 +18,5 @@ for i in range(N):
 
     print()
     
-    cnt_1 -= 1
-    cnt_2 += 2
+    cnt_1 -= 
+    cnt_2 += 
