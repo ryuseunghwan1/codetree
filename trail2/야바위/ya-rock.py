@@ -14,4 +14,4 @@ for start in (1, 2, 3):
             score += 1
     best = max(bes, score)
 
-print(be)
+print(best)
