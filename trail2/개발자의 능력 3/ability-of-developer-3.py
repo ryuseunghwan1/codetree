@@ -15,3 +15,6 @@ for i in range(0, 6):
             min_diff = min(min_diff, get_diff(i, j, m))
 
 print(min_diff)
+
+def get_diff(i, j, m):
+    sum1 = arr_1[i] + arr_1[j] + arr_i
