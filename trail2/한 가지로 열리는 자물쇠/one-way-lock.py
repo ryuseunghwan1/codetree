@@ -9,4 +9,4 @@ for i in range(1, n + 1):
             if abs(i - a) <= 2 or abs(j - b) <= 2 or abs(m - c) <= 2:
                 cnt += 1
 
-print(cnt
+print(cnt)
