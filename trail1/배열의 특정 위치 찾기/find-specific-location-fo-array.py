@@ -7,4 +7,4 @@ for i in arr[1::2]:
 for j in arr[2::3]:
     arr_2.append(j)
 
-print(even, round(sum(arr_2)/len(arr_2),1 
+print(even, round(sum(arr_2)/len(arr_2),1 ))
