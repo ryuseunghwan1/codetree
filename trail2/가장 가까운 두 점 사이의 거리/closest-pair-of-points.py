@@ -14,6 +14,4 @@ for i in range(n):
 
         cnt  = min(multiple , cnt)
 
-print(cnt)
-
-        
+print(cnt
