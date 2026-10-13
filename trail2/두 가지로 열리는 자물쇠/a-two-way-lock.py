@@ -34,4 +34,7 @@ def main():
 
     def close(x, y):
         d= abs(x-y)
-        return min(d, n-)
+        return min(d, n-d) <= 2
+
+    def matches(combo, target):
+        return all(close(combo[i]]))
