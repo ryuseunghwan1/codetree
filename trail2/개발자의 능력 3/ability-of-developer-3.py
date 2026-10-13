@@ -13,3 +13,4 @@ for i in range(0, 6):
         for m in range(j+1, 6):
             min_diff = min(min_diff, get_diff(i, j ,m))
 
+print(min_diff)
