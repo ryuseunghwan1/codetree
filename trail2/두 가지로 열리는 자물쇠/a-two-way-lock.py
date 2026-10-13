@@ -26,15 +26,3 @@ def main():
     print(count)
 
 main()
-
-def main():
-    data = sys.stdin.read().split()
-    n = int(data[0])
-    first  list(map(int, data[1:4]))
-
-    def close(x, y):
-        d= abs(x-y)
-        return min(d, n-d) <= 2
-
-    def matches(combo, target):
-        return all(close(combo[i]]))
