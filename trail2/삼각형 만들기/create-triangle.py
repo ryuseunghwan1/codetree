@@ -24,4 +24,4 @@ for i in range(n):
                 area_times_2 = width * height
                 max_area_times_2 = max(max_area_times_2, area_times_2)
 
-print(max_area_times_2
+print(max_area_times_2)
