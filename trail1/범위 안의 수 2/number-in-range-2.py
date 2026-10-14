@@ -9,4 +9,4 @@ for i  in range(10):
         summ += num
         aver += 1
 
-print(summ, round(summ / aver, 1)
+print(summ, round(summ / aver, 1))
