@@ -18,8 +18,3 @@ for _ in range(n):
         cur -= x
 
 print(sum(1 for c in cnt if c >= 2))
-
-
-n = int(input())
-cnt = [0] * (MAX_R + 1)
-print(sum())
