@@ -1,4 +1,6 @@
+# 변수 선언, 입력
 n = int(input())
 
-for i in rang(n, 0, -1):
-    print(i, end=' ')
+# 출력
+for i in range(n, 0, -1):
+    print(i, end=" ")
