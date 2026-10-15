@@ -8,4 +8,4 @@ def string(n, m):
             print(1, end='')
         print()
 
-string(n, m)
+string(n, m
