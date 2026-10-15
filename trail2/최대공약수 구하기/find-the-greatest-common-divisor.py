@@ -14,4 +14,4 @@ for j in range(1, m+1):
 
 
 gcd = max(set(n_sq) & set(m_sq))
-print(gcd
+print(gcd)
