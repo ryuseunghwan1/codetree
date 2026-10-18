@@ -12,6 +12,6 @@ def check_number(n):
         return 'No'
 
 
-print(check_number(n))
+print(check_number(n)
 
 
