@@ -14,4 +14,4 @@ def is_subsequence(A, B):
     
     return 'No'
 
-print(is_subsequence(a,b)
+print(is_subsequence(a,b))
