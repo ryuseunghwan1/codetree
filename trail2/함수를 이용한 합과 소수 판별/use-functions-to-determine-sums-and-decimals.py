@@ -25,6 +25,4 @@ for i in range(a, b+1):
 
 
 
-print(cnt
-    
-
+print(cnt)
