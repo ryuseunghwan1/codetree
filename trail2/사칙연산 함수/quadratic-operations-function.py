@@ -20,5 +20,4 @@ calcul_list = ['+', '-', '/', '*']
 if o in calcul_list:
     print(a, o, c, '=', calcul(a,o,c))
 else:
-    print(False))
-    
+    print(False)
