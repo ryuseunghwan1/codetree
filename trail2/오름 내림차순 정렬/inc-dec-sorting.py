@@ -8,4 +8,4 @@ for i in nums:
 print()
 nums.sort(reverse=True)
 for j in nums:
-    print(j, end=' '
+    print(j, end=' ')
