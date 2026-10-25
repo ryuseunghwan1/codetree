@@ -14,4 +14,4 @@ for i in range(n):
     if group_sum > group_max:
         group_max = group_sum
 
-print(group_max)r
+print(group_max)
