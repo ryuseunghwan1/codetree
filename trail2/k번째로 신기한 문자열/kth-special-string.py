@@ -9,4 +9,4 @@ for i in str:
         cnt.append(i)
 
 cnt.sort()
-print(cnt[k-1]
+print(cnt[k-1])
