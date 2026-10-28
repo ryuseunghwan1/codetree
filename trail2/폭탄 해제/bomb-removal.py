@@ -13,4 +13,4 @@ fix = Bomb(unlock_code, wire_color, seconds)
 
 print('code :', fix.code)
 print('color :', fix.color)
-print('second :', fix.second)
+print('second :', fix.second
