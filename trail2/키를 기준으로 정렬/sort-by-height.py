@@ -16,5 +16,4 @@ students.sort(key = lambda x: x.height)
 
 # 출력
 for student in students:
-    print(student.name, student.height, student.weight
-
+    print(student.name, student.height, student.weight)
