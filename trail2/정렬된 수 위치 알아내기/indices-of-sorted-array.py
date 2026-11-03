@@ -22,4 +22,4 @@ for new_idx, (val, original_idx) in enumerate(arr):
 
 # 4. 원래 1번 원소부터 N번 원소까지 이동한 위치를 공백을 사이에 두고 출력합니다.
 for i in range(1, n + 1):
-    print(answer[i], end=" "
+    print(answer[i], end=" ")
