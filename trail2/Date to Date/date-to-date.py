@@ -11,4 +11,4 @@ for i in range(m1-1, 0, -1):
 for j in range(m2-1, 0, -1):
     b += calender[j]
 
-print(b-a+1
+print(b-a+1)
