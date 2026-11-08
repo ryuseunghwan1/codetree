@@ -17,4 +17,4 @@ for _ in range(n):
             cnt[i] += 1
         cur -= x
 
-print(sum(1 for c in cnt if c >= 2))
+print(sum(1 for c in cnt if c >= 2)
