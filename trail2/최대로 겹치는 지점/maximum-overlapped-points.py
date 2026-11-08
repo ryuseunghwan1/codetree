@@ -10,4 +10,4 @@ for a, b in segments:
     for i in range(a, b+1):
         cnt[i] += 1
 
-print(max(cnt))
+print(max(cnt)
