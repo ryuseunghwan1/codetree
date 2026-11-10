@@ -23,4 +23,4 @@ total_area = 0
 for row in grid:
     total_area += sum(row)
 
-print(total_area
+print(total_area)
