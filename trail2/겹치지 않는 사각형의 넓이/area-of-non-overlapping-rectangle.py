@@ -25,4 +25,4 @@ cnt_2 = (x2[1] - x1[1]) * (y2[1] - y1[1])
 overlap_A = squar(x1[0], y1[0], x2[0], y2[0], x1[2], y1[2], x2[2], y2[2])
 overlap_B = squar(x1[1], y1[1], x2[1], y2[1], x1[2], y1[2], x2[2], y2[2])
 
-print( (cnt_1+cnt_2) - (overlap_A + overlap_B)  )
+print( (cnt_1+cnt_2) - (overlap_A + overlap_B)  
