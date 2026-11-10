@@ -40,7 +40,4 @@ for r in range(205):
         if grid[r][c] == 2:
             total_area += 1
 
-print(total_area)
-                
-
-        
+print(total_area
