@@ -44,4 +44,4 @@ for i in range(1, len(pos_A)):
         ans = i
         break
     
-print(ans)
+print(ans
