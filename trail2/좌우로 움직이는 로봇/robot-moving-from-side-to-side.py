@@ -38,4 +38,4 @@ for t in range(total_time):
 
     prev_same = same
 
-print(count
+print(count)
