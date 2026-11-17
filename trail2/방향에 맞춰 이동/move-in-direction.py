@@ -4,7 +4,7 @@ dir = [move[0] for move in moves]
 dist = [int(move[1]) for move in moves]
 
 # Please write your code here.
-
+x, y = 0 , 0
 for i in range(n):
     if dir[i] == 'N':
         y += dist[i]
