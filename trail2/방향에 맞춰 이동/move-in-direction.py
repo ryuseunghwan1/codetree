@@ -15,4 +15,4 @@ for i in range(n):
     else:
         x -= dist[i]
 
-print(x,  y
+print(x,  y)
