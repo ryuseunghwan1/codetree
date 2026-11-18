@@ -10,4 +10,4 @@ for i in range(n - 1):        # 경계선은 N-1개
     diff += A[i] - B[i]       # 누적(A) - 누적(B)
     ans += diff
 
-print(ans
+print(ans)
