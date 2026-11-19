@@ -1,11 +1,7 @@
 a, b, x, y = map(int, input().split())
 
-# Please write your code here.
+no_tp   = abs(a - b)
+x_to_y  = abs(a - x) + abs(y - b)
+y_to_x  = abs(a - y) + abs(x - b)
 
-arrive = max(x, y)
-depart = min(x,y)
-
-if b - arrive <= b - a:
-    print(abs(a-b) + (arrive - depart) + (b-arrive))
-else:
-    print(b-a)
+print(min(no_tp, x_to_y, y_to_x))
