@@ -3,7 +3,7 @@ arr = list(map(int, input().split()))
 
 # Please write your code here.
 
-min_diff = 100
+min_diff = float('inf')
 
 
 
