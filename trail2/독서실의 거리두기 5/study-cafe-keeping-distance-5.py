@@ -9,7 +9,7 @@ for i in range(N):
     if seat[i] == '0':
         
         temp = list(seat)
-        temp[i] == '1'
+        temp[i] = '1'
 
         pos = []
         for j in range(N):
