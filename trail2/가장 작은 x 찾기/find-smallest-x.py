@@ -1,3 +1,10 @@
+n = int(input())
+ranges = [tuple(map(int, input().split())) for _ in range(n)]
+a, b = zip(*ranges)
+a, b = list(a), list(b)
+
+# Please write your code here.
+
 x = 1
 while True:                      # 바깥: x 후보 바꾸기
     val = x
