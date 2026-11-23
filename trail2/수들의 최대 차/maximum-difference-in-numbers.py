@@ -2,11 +2,18 @@ N, K = map(int, input().split())
 arr = [int(input()) for _ in range(N)]
 
 # Please write your code here.
-cnt = 0
+]
+ans = 0
+
 for i in range(N):
-    for j in range(i+1, N):
-        if abs(arr[j] - arr[i]) <= K:
+    low = arr[i]
+    high = low + K
+    
+    cnt = 0
+    for j in arr:
+        if low <= j <= high:
             cnt += 1
 
-print(cnt)
-        
+    ans = max(ans, cnt)
+
+print(ans)
