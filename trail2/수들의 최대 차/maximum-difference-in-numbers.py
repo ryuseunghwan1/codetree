@@ -8,7 +8,7 @@ ans = 0
 for i in range(N):
     low = arr[i]
     high = low + K
-    
+
     cnt = 0
     for j in arr:
         if low <= j <= high:
