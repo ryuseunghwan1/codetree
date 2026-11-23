@@ -1,8 +1,6 @@
 N, K = map(int, input().split())
 arr = [int(input()) for _ in range(N)]
 
-# Please write your code here.
-]
 ans = 0
 
 for i in range(N):
