@@ -5,6 +5,6 @@ blocks = [int(input()) for _ in range(n)]
 ans = 0
 for i in blocks:
     if i > sum(blocks) // len(blocks):
-        ans += i - (sum(blocks) / len(blocks))
+        ans += i - (sum(blocks) // len(blocks))
 
 print(ans)
