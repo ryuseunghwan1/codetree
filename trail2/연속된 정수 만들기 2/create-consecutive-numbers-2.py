@@ -1,8 +1,14 @@
 pos = list(map(int, input().split()))
 
 # Please write your code here.
+a, b ,c  = sorted(pos)
 
-a = abs( pos[0] - pos[1]   ) - 1
-b = abs(pos[1] - pos[2] )  - 1
+gap_1 = b-a
+gap_2 = c-b
 
-print(min(a,b))
+if (gap_1) == 1 and (gap_2) == 1:
+    print(0)
+elif (gap_1) == 2 or (gap_2) == 2:
+    print(1)
+else:
+    print(2))
