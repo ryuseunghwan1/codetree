@@ -11,4 +11,4 @@ for j in range(1, 5):
 for arr in arr_2d:
     for elem in arr:
         print(elem, end=' ')
-    print(
+    print()
